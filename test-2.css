@@ -1,0 +1,65 @@
+body {
+    /* background-color: rgb(247, 214, 255); */
+    background-size: 100% 100%;
+    background-image: linear-gradient(45deg,#d4afd8 , #473676);
+    
+}
+
+.index {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    background-image: url('test-bg.jpg');
+    background-size: cover;
+    box-shadow: 10px 20px 20px 10px rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    /* color: transparent; */
+}
+
+.frosted {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: rgba(229, 216, 238, 0.575);
+    box-shadow: 10px 20px 20px 10px rgba(0, 0, 0, 0.2), 10px 20px 20px 10px rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.header {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+    
+    font-weight: bolder;
+    color: #3c2552;
+    /* color: rgba(86,77,115,255); */
+    font-size: 20px;
+}
+
+.content {
+    float: left;
+    width: 50%;
+    overflow: auto;
+    font-family: sans-serif;
+    padding: 0px 0px 0px 100px;
+    text-align: justify;
+    color: #3c2552;
+    font-size: large;
+}
+
+.profile {
+    /* float: left; */
+    width: 512px;
+    height: 512px;
+    margin:auto;
+    overflow: auto;
+    background-image: url('pic.png');
+}
+
+footer{
+    font-family: sans-serif;
+    text-align: center;
+    color: #3c2552;
+    font-size: large;
+    font-weight: bold;
+}
